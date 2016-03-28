@@ -1,0 +1,22 @@
+{
+  "name": "mym",
+  "version": "1.0.0",
+  "description": "CMS for MYM Tanzania site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/poowpoow/MYM.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Paula Berglund",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/poowpoow/MYM/issues"
+  },
+  "homepage": "https://github.com/poowpoow/MYM#readme"
+}
