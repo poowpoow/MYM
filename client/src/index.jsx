@@ -1,9 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Router, Route } from 'react-router';
+import App from './App';
 
 ReactDOM.render(
-  <h1>Hello, world!</h1>,
-  document.getElementById('root')
+  <Router>
+	<Route path="/" component={App}/>
+	<Route path="/:filter" component={App}/>
+  </Router>
+  , document.getElementById('root')
 );
   
