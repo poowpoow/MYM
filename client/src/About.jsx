@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import {Router} from 'react-router';
 import io from 'socket.io-client';
 
-export default class App extends Component {
+export default class About extends Component {
   constructor(props) {
     super(props);
   }
@@ -10,7 +10,7 @@ export default class App extends Component {
   render() {
     return (
         <div>
-	  Hello from App.jsx!! Paula här!
+	  Hallåå!
         </div>
     );
   }

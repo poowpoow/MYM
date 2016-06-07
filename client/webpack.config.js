@@ -1,5 +1,6 @@
 var path = require('path');
 var webpack = require('webpack');
+require("./style/file.less");
 
 module.exports = {
   devtool: 'eval',
@@ -22,15 +23,15 @@ module.exports = {
       loaders: ['react-hot', 'babel'],
       include: path.join(__dirname, 'src')
     },{
-      test: /\.css$/,
-      loaders: ['style-loader', 'css-loader']
+      test: /\.less$/,
+      loaders: ['style!css!less']
     }]
   },
   resolve: {
     extensions: ['', '.js', '.jsx']
   },
-  exclude: /node_modules/, 
-  loader: "babel", 
+  exclude: /node_modules/,
+  loader: "babel",
   query: {
 	presets:['react']
   }
