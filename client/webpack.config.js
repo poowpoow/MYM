@@ -1,6 +1,5 @@
 var path = require('path');
 var webpack = require('webpack');
-require("./style/file.less");
 
 module.exports = {
   devtool: 'eval',
@@ -18,13 +17,15 @@ module.exports = {
     new webpack.HotModuleReplacementPlugin()
   ],
   module: {
-    loaders: [{
+    loaders: [
+      {
       test: /\.jsx?$/,
       loaders: ['react-hot', 'babel'],
       include: path.join(__dirname, 'src')
-    },{
+    },
+    {
       test: /\.less$/,
-      loaders: ['style!css!less']
+      loader:  'style!css!less'
     }]
   },
   resolve: {

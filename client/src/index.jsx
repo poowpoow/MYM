@@ -4,6 +4,8 @@ import { Router, Route } from 'react-router';
 import App from './App';
 import About from './About';
 
+require("./style/app.less");
+
 ReactDOM.render(
   <Router>
 	<Route path="/" component={App}/>
