@@ -21,6 +21,8 @@
   },
   "homepage": "https://github.com/poowpoow/MYM#readme",
   "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
     "immutable": "^3.7.6",
     "react": "^0.14.7",
     "react-router": "^2.0.1"
@@ -40,4 +42,3 @@
     ]
   }
 }
-
