@@ -1,23 +1,19 @@
-ul{
-    list-style:none;
-    display: inline-block;
+.main-menu__toggle-btn{
+    cursor: pointer;
+    position: absolute;
+    top:1rem;
+    right:1rem;
+    width: 20px;
+    height: 0px;
 }
-
-ul li{
-    display: inline-block;
-    padding: 10px 20px;
-    cursor:pointer;
-    background-color:#eee;
-    color:#7B8585;
-
-    transition:0.3s;
+.main-menu__container nav.active{
+  display: block;
 }
-
-ul li:hover{
-    background-color:#beecea;
+.main-menu__container nav{
+  display: none;
 }
-
-ul li.focused{
-    color:#fff;
-    background-color:#41c7c2;
+.main-menu__list{
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
 }

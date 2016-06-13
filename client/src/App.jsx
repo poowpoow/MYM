@@ -12,12 +12,6 @@ export default class App extends Component {
   render() {
     return (
       <div>
-          <nav>
-            <a href="#">Öppna/Stäng meny</a>
-            <ul>
-              <li></li>
-            </ul>
-          </nav>
           <heading>
   	       <h1>Vi är en demokratisk, ...</h1>
           </heading>
