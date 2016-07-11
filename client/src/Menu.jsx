@@ -3,7 +3,7 @@ import {Router} from 'react-router';
 import ReactDOM from 'react-dom';
 import io from 'socket.io-client';
 
-export default class MenuExample extends Component {
+export default class MainMenu extends Component {
     constructor(props) {
       super(props);
       this.state = {
@@ -40,6 +40,9 @@ export default class MenuExample extends Component {
                     <li className='main-menu__list-item'>
                       <a className='main-menu__link' href='/kontakt'>Kontakt</a>
                     </li>
+                    <li className='main-menu__list-item'>
+                      <a className='btn btn--primary' href='/gedittstod'>Ge ditt stöd</a>
+                    </li>
                   </ul>
                 </nav>
             </div>
@@ -47,4 +50,4 @@ export default class MenuExample extends Component {
 
     }
 };
-ReactDOM.render(<MenuExample/>, document.getElementById('main-menu'))
+ReactDOM.render(<MainMenu/>, document.getElementById('main-menu'))

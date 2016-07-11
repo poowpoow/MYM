@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import { Router, Route } from 'react-router';
 import App from './App';
 import About from './About';
-import MenuExample from './Menu';
+import MainMenu from './Menu';
 
 require("./style/app.less");
 

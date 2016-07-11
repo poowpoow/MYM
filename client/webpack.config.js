@@ -26,7 +26,16 @@ module.exports = {
     {
       test: /\.less$/,
       loader:  'style!css!less'
-    }]
+    },
+    {
+      test: /\.css$/,
+      loader: "style-loader!css-loader"
+    },
+    {
+      test: /\.png$/,
+      loader: "url-loader?limit=10000&minetype=image/png" 
+    }
+  ]
   },
   resolve: {
     extensions: ['', '.js', '.jsx']
