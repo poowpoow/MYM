@@ -41,7 +41,7 @@ export default class MainMenu extends Component {
                       <a className='main-menu__link' href='/kontakt'>Kontakt</a>
                     </li>
                     <li className='main-menu__list-item'>
-                      <a className='btn btn--primary' href='/gedittstod'>Ge ditt stöd</a>
+                      <button className='btn btn--primary' href='/gedittstod'>Ge ditt stöd</button>
                     </li>
                   </ul>
                 </nav>
