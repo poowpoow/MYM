@@ -9,9 +9,9 @@ export default class About extends Component {
 
   render() {
     return (
-        <div>
-	  Hallåå!
-        </div>
+      <div>
+        Hallåå!
+      </div>
     );
   }
 }

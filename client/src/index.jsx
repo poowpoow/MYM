@@ -9,8 +9,8 @@ require("./style/app.less");
 
 ReactDOM.render(
   <Router>
-	<Route path="/" component={App}/>
-  <Route path="/about" component={About}/>
-	<Route path="/:filter" component={App}/>
+    <Route path="/" component={App}/>
+    <Route path="/about" component={About}/>
+    <Route path="/:filter" component={App}/>
   </Router>, document.getElementById('root')
 );
